@@ -3,5 +3,6 @@ $(document).ready(function() {
 
 
 
-    // using the octocat class hide and show the octocats
+    // using the octocat class create an alert that states the user clicked on an octocat
+
 })
