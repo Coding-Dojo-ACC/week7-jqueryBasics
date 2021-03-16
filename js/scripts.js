@@ -20,7 +20,7 @@ $(document).ready(function() {
         $('a').fadeIn();
     })
     $('.bee').hover(function(){
-        $('img').fadeOut();
+        $('.bee').fadeOut();
     })
     $('#fadeInImg').hover(function(){
         $('.bee').fadeIn();
