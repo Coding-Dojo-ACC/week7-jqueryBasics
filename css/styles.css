@@ -13,3 +13,6 @@ header nav a {
 img {
     width: 20%;
 }
+header nav a {
+    display: none;
+}
