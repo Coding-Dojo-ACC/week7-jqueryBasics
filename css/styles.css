@@ -6,6 +6,18 @@ body {
     justify-content: center;
     align-items: center;
 }
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    margin: 1em;
+}
+.magic {
+    margin: 1em;
+}
 header nav a {
     color: white;
     text-decoration: none;
@@ -15,4 +27,19 @@ img {
 }
 header nav a {
     display: none;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.magicSection img {
+    width: 200px;
 }

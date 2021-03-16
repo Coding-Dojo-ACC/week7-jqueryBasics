@@ -35,6 +35,14 @@ $(document).ready(function() {
 
     // add more text to the h3 tag using an event
     $('#append').prepend("What's up?")
+
+
+    // Bonus after class magic
+    $('.magic').click(function(){
+        $('img').animate( {
+            width: 'toggle'
+        })
+    })
 })
 /*
 1. declare a function
